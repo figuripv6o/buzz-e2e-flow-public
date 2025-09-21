@@ -1,0 +1,17 @@
+buzz-e2e-flow/
+│── README.md                # Public-facing description
+│── .gitignore
+│── .github/
+│   └── workflows/
+│       └── ci-cd.yml        # CI/CD pipeline
+│── docs/
+│   ├── e2e-flow.md          # Lifecycle blueprint
+│   └── architecture.png     # Visual diagram (optional)
+│── scripts/
+│   ├── buzzpush.sh          # One-shot git push helper
+│   └── deploy.sh            # One-shot deploy script
+│── src/
+│   ├── app/                 # 🔒 Private: core app logic
+│   ├── infra/               # 🔒 Private: Terraform/IaC
+│   └── tests/               # 🔒 Private: unit + e2e tests
+
